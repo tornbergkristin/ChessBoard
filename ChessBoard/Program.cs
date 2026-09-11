@@ -8,7 +8,7 @@
             // Activate UTF-8 for the console to be able to show ◻︎◼︎
            Console.OutputEncoding = System.Text.Encoding.UTF8;
             // Below I ask the user to tell how many rows and columns the person wants.
-            Console.WriteLine("Ange antal rader och kolumner: ");
+            Console.WriteLine("Ange en siffra: ");
             int columns = int.Parse(Console.ReadLine());
                     
             // White loop for the chessboard
